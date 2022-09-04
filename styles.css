@@ -1,0 +1,413 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home{
+    padding:12% 10% 15%;
+    background-image: url("https://na.panasonic.com/us/sites/default/files/2021-05/rs21119web_evervoltgen1.5-pdp1168x778.jpg");
+    object-fit: cover;
+background-repeat: no-repeat;
+
+
+}
+
+  .teasing {
+  margin-bottom: 100px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .teasing .row {
+      display: flex;
+    }
+  
+    .teasing .row > [class*='col-'] {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .card {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    position:relative;
+    height: 150px;
+  }
+  .card::before {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+    position: absolute;
+    display: block;
+    content: '';
+  }
+  
+  .hove:hover::before {
+    background-image:linear-gradient(to top, rgba(0,0,0,.90), rgba(0,0,0,.60));
+  }
+  
+  
+  .coming-soon {
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left:0;
+    right:0;
+    margin-top: -17px;
+  }
+  
+  .coming-soon span {
+    font-size: 20px;
+    line-height: 2em;
+    background: rgba(255, 255, 255, .8);
+   padding:10px; 
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  
+  .disabled  {
+      filter: grayscale(90%);
+  }
+  
+  .card-content {
+    position: relative;
+    overflow: hidden;
+    margin-top: none;
+    padding: 0 .5em;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .disabled .card-content {
+    opacity: .9;
+  }
+  
+  .card-title {
+    margin: 1.5em 0 1em 0;
+    font-weight: 800;
+  }
+  
+  .lorem {background-image: url(https://images.pexels.com/photos/5533417/pexels-photo-5533417.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);}
+  .dolor {background-image: url(https://images.pexels.com/photos/13234871/pexels-photo-13234871.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);}
+  .sit-amet {background-image: url(https://images.pexels.com/photos/12282582/pexels-photo-12282582.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);}
+  .blablabla {background-image: url(https://images.pexels.com/photos/13345750/pexels-photo-13345750.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);}
+.home-titile{
+    font-size: 50px;
+    
+}
+.pr{
+    font-size: 30px;
+    line-height: 2;
+}
+.about{
+    padding:6% 13% 10%;
+   
+}
+.Our-service{
+    text-align: center;
+    padding:10px;
+}
+.video{
+    padding:6% 0% 10%;
+}
+.section-heading {
+    text-align:center;
+    color:#102C4E;
+    margin-top: 150px;
+    margin-bottom:70px;
+    font-size: 35px;
+  }
+#service{
+    padding:6% 13% 10%;
+}
+.box{
+   align-items: center;
+    text-align: center;
+    
+}
+
+.btt{
+    text-align: center;
+}
+.products{
+    padding:6% 13% 10%;
+    background-color: #59CE8F;
+}
+.nav-link a:hover{
+    font-weight: bold ;
+    color:black;
+}
+.about-para{
+color:white;
+    padding:20px;
+}
+.about-title{
+    text-align: center;
+}
+.about{
+    background-color:#3B9AE1;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family:  sans-serif;
+    background-color: white;
+    overflow: hidden;
+    
+}
+#footer{
+	background: #f7f7f7;
+    padding: 3rem;
+	/* padding-top: 5rem; */
+	padding-top: 7rem;
+    padding-bottom: 80px;
+	background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+}
+#footer2{
+	background: #f7f7f7;
+    padding: 3rem;
+    margin-top: 0px;
+	/* padding-top: 5rem; */
+	padding-top: 7rem;
+    padding-bottom: 80px;
+	background-image: url(../images/cards/v748-toon-111.png);
+}
+
+
+.social-links h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.social-links img{
+	padding-bottom: 25px;
+}
+.social-icons{
+	/* display: flex;
+    gap: 3rem; */
+	display: flex;
+    flex-direction: column;
+    gap: 1rem;
+	color: #777777;
+}
+.social-icons a{
+
+	color: #777777;
+}
+.social-icons a:hover{
+	color: #000;
+}
+.social-icons a i{
+	box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+    color: #82074a;
+	font-size: 16px;
+	margin-right: 12px;
+}
+li{
+	list-style: none;
+}
+.useful-link h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.useful-link img{
+	padding-bottom: 15px;
+}
+.use-links{
+	line-height: 32px;
+}
+.use-links li i{
+	font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+}
+.use-links li a{
+	color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+	color: #777777;
+}
+.use-links li a:hover{
+	color: #000;
+}
+.address h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.address img{
+	padding-bottom: 15px;
+}
+.address-links li a{
+	color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+	color: #777777;
+
+}
+.address-links li i{
+	font-size: 16px;
+    padding-right: 8px;
+	color: #82074a;
+
+}
+.address-links li i:nth-child(1){
+	padding-top: 9px;
+}
+.address-links .address1{
+	font-weight: 500;
+    font-size: 15px;
+	display: flex;
+}
+.address-links{
+	    line-height: 32px;
+		color: #777777;
+}
+.copy-right-sec{
+	padding: 1.8rem;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+.copy-right-sec a{
+	color: #fcd462;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+.footer-p{
+    text-align: center;
+}
+/* footer section end */
+.logo {
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 20px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-link a {
+    color:red;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+.para-h{
+    text-align:end;
+
+}
+.top-header{
+    padding:15px;
+    
+}
+
+.pro-title{
+    padding:10px;
+    text-align: center;
+}
+
+
+/*list style none to cjange the list style*/
+.nav-link li {
+    list-style: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.burger {
+    display: none;
+}
+#service{
+    background-color: gray;
+}
+@media screen and (max-width:1024px) {
+    .nav-link {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .logo-h{
+        padding:5px;
+        color:red;
+    }
+    .nav-link {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in-out;
+    }
+ 
+
+    .nav-link li {
+        margin: 50px;
+
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+        color:red;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+}
+
+
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
